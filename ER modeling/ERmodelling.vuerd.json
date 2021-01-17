@@ -1,0 +1,240 @@
+{
+  "canvas": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 1.440000057220459,
+    "scrollLeft": 126.72000122070312,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": true,
+      "columnPrimaryKey": true,
+      "columnUnique": true,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    }
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Member",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Name",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "858c1cb2-38b3-ff7b-bc3b-e4b7613f3591"
+          },
+          {
+            "name": "Email",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "89ee6161-51cd-4a75-5292-fca1a0e52c84"
+          },
+          {
+            "name": "PhoneNumber",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 86,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "34e62bab-ed4e-33ef-97b1-53d0105a602b"
+          },
+          {
+            "name": "Name",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6ec0ff02-2c76-5d43-1668-5ee688571f45"
+          },
+          {
+            "name": "Birthdate",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "59c94f61-e6cf-23e1-1007-20713c887640"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 172.6399989562985,
+          "top": 68.31999879150376,
+          "zIndex": 59,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "id": "74fbb2c3-e53a-bfe1-b169-2cb176241df4"
+      },
+      {
+        "name": "League",
+        "comment": "",
+        "columns": [
+          {
+            "name": "League Code",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 80,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d5fe2160-867d-1373-b39a-673b41cbf46c"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 175.51999815368654,
+          "top": 477.28001439437816,
+          "zIndex": 61,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "id": "678e9b35-a82d-7db5-d5aa-25dac2098801"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "start": {
+          "tableId": "74fbb2c3-e53a-bfe1-b169-2cb176241df4",
+          "columnIds": [
+            "6ec0ff02-2c76-5d43-1668-5ee688571f45"
+          ],
+          "x": 382.63999895629854,
+          "y": 239.81999879150376,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "678e9b35-a82d-7db5-d5aa-25dac2098801",
+          "columnIds": [
+            "d5fe2160-867d-1373-b39a-673b41cbf46c"
+          ],
+          "x": 382.5199981536865,
+          "y": 477.28001439437816,
+          "direction": "top"
+        },
+        "id": "e11384cc-cd41-4573-5b75-72861a050191",
+        "relationshipType": "OneOnly"
+      }
+    ]
+  }
+}
